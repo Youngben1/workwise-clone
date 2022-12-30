@@ -1,53 +1,31 @@
 import React from "react";
-import { BsThreeDotsVertical, BsFillEnvelopeFill } from "react-icons/bs";
+import { BsThreeDotsVertical } from "react-icons/bs";
 import sonny from "../assets/sonny.jpg";
+import TopProfileOption from "./TopProfileOption";
 import "./TopProfiles.css";
 
 function TopProfiles() {
   return (
     <div className="profile">
-      <div className="profile_head">
+      <div className="profile_desc">
         <h1>Top Profiles</h1>
         <BsThreeDotsVertical />
       </div>
-      <div className="top_profile">
-        <div className="top_profiledetails">
-          <img src={sonny} alt="facecard" />
-          <h2>John Doe</h2>
-          <p>Graphic Designer</p>
+      <div className="profile_head">
+        <div className="top_profile">
+          <img src={sonny} alt="face" />
+          <TopProfileOption name="John Doe" title="Graphic Designer" />
         </div>
-        <div className="profile_buttons">
-          <button>Follow</button>
-          <BsFillEnvelopeFill />
-          <button>Hire</button>
+
+        <div className="top_profile">
+          <img src={sonny} alt="face" />
+          <TopProfileOption name="Jassica" title="PHP Designer" />
         </div>
-        <p>View Profile</p>
-      </div>
-      <div className="top_profile">
-        <div className="top_profiledetails">
-          <img src={sonny} alt="facecard" />
-          <h2>John Doe</h2>
-          <p>Graphic Designer</p>
+
+        <div className="top_profile">
+          <img src={sonny} alt="face" />
+          <TopProfileOption name="John Doe" title="Graphic Designer" />
         </div>
-        <div className="profile_buttons">
-          <button>Follow</button>
-          <BsFillEnvelopeFill />
-          <button>Hire</button>
-        </div>
-        <p>View Profile</p>
-      </div>
-      <div className="top_profile">
-        <div className="top_profiledetails">
-          <img src={sonny} alt="facecard" />
-          <h2>John Doe</h2>
-          <p>Graphic Designer</p>
-        </div>
-        <div className="profile_buttons">
-          <button>Follow</button>
-          <BsFillEnvelopeFill />
-          <button>Hire</button>
-        </div>
-        <p>View Profile</p>
       </div>
     </div>
   );

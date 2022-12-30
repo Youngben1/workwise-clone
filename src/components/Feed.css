@@ -1,17 +1,16 @@
 .feed {
   flex: 0.6;
-  margin: 20px;
+  margin: 10px;
 }
 
 .feed_inputContainer {
   justify-content: space-evenly;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border: 1px solid lightgray;
-  border-top: 8px solid red;
+  border-top: 5px solid rgb(214, 65, 65);
 }
 
 .feed_input > img {
@@ -23,7 +22,8 @@
 
 .feed_input {
   display: flex;
-  padding: 10px;
+  padding: 20px;
+  margin: 10x;
   align-items: center;
 }
 
@@ -35,12 +35,13 @@
 .feed_input > form > input {
   flex: 1;
   font-weight: 600;
-  padding: 10px;
+  padding: 30px;
+  background-color: lightgray;
   margin: 20px;
 }
 
 .feed_input > form > button {
-  background-color: red;
+  background-color: rgb(214, 65, 65);
   color: white;
   padding: 5px;
   margin: 20px;

@@ -10,26 +10,18 @@ import { BiComment } from "react-icons/bi";
 import { FcLike } from "react-icons/fc";
 import "./Post.css";
 
-function Post({
-  name,
-  title,
-  time,
-  description,
-  country,
-  salary,
-  message,
-  image,
-}) {
+function Post({ name, title, time, description, country, salary, message }) {
   return (
     <div className="post">
       <div className="post_header">
         <img src={sonny} alt="pics" />
         <div className="post_info">
-          <h2>John Doe</h2>
+          <h2>{name}</h2>
           <p>{time}</p>
         </div>
         <BsThreeDotsVertical />
       </div>
+
       <div className="post_description">
         <p>{description}</p>
         <p>{country}</p>

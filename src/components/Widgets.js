@@ -63,7 +63,7 @@ function Widgets() {
         </div>
       </div>
       <div className="third_widget">
-        <div>
+        <div className="third_widgetdetail">
           <h1>Most Viewed This Week</h1>
           <BsThreeDotsVertical />
         </div>

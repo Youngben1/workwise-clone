@@ -9,7 +9,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="top_sidebar">
         <img src={sonny} alt="face" />
-        <h1>Sonny Sangha</h1>
+        <h1>John Doe</h1>
         <p>Graphic Designer at Self Employed</p>
         <div className="sidebar_stats">
           <div className="sidebar_stat">
